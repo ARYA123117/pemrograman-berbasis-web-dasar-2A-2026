@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arya TechnoPhone</title>
+    <style>
+        * {
+            margin: 0; padding: 0; box-sizing: border-box;
+            font-family: 'Inter', sans-serif; scroll-behavior: smooth;
+        }
+
+        
+        body { 
+            background: linear-gradient(to bottom, #6294c6, #ffffff); 
+        }
+
+        
+        nav {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 20px 10%; background: rgb(132, 211, 233); 
+            border-bottom: 1px solid #ffffff; position: sticky; top: 0;
+        }
+
+        nav a { color: #475569; text-decoration: none; margin-left: 20px; font-weight: 700; }
+        nav a:hover { color: #595bb1; }
+
+        
+        .hero {
+            display: flex; align-items: center; padding: 100px 10%; gap: 40px;
+        }
+
+        .hero-text { flex: 1; }
+        .hero-text h1 { font-size: 3.5rem; color: #1e293b; margin-bottom: 15px; }
+        .hero-text span { color: #6366f1; } 
+
+        .hero-img { flex: 1; text-align: right; }
+        .hero-img img { 
+            width: 100%; max-width: 350px; border-radius: 25px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1); 
+        }
+
+        #tentang { padding: 80px 10%; text-align: center; }
+        
+        .box-spek {
+            display: flex; gap: 20px; margin-top: 40px; flex-wrap: wrap;
+        }
+
+        .item {
+            flex: 1 ; min-width: 250px; background: white; 
+            padding: 30px; border-radius: 15px; border: 1px solid #e2e8f0;
+        }
+
+        .item h3 { color: #6366f1; margin-bottom: 10px; }
+
+        .btn-order {
+            display: inline-block; padding: 16px 45px; background: #6366f1;
+            color: white; text-decoration: none; border-radius: 8px; 
+            font-weight: bold; margin-top: 40px; 
+        }
+        footer { padding: 40px; text-align: center; color: #94a3b8; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div style="font-size: 22px; font-weight: 800; color: #145ccf;">TECHNOPHONE</div>
+        <div>
+            <a href="#">Beranda</a>
+            <a href="#tentang">Tentang Produk</a>
+            <a href="kontak.html">Kontak</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>IQOO <span>Z10R 5G</span></h1>
+            <p>Rasakan kemudahan teknologi masa depan dalam satu genggaman. Desain minimalis untuk kamu yang produktif.</p>
+        </div>
+        <div class="hero-img">
+            <img src="image.png" alt="Phone Design">
+        </div>
+    </section>
+
+    <section id="tentang">
+        <h2>Kenapa Memilih IQOO Z10R?</h2>
+        
+        <div class="box-spek">
+            <div class="item">
+                <h3>Layar Luas</h3>
+                <p>6.7" Super Retina yang jernih dan nyaman dilihat.</p>
+            </div>
+            <div class="item">
+                <h3>Hemat Energi</h3>
+                <p>Chipset efisien yang membuat baterai bertahan 2 hari.</p>
+            </div>
+            <div class="item">
+                <h3>Keamanan Data</h3>
+                <p>Dilengkapi sistem Face ID terbaru yang sangat aman.</p>
+            </div>
+        </div>
+
+        <a href="https://www.iqoo.com/id/products/z10r-5g" class="btn-order">ORDER NOW</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Arya TechnoPhone - Universitas Trunojoyo Madura</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - TechnoPhone S26</title>
+    <style>
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+        
+        body { 
+            background: linear-gradient(#6294c6, #ffffff); 
+            min-height: 100vh; 
+        }
+
+        nav {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 20px 10%; background: #84d3e9; border-bottom: 1px solid #fff;
+        }
+        nav a { color: #475569; text-decoration: none; margin-left: 20px; font-weight: bold; }
+        nav a:hover { color: #595bb1; }
+    
+        .container {
+            display: flex; justify-content: center; padding: 50px 10%;
+        }
+        .card {
+            background: white; padding: 30px; border-radius: 15px;
+            width: 100%; max-width: 500px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h2 { color: #1e293b; text-align: center; margin-bottom: 20px; }
+        h2 span { color: #6366f1; }
+
+        input, textarea {
+            width: 100%; padding: 12px; margin-bottom: 15px;
+            border: 1px solid #e2e8f0; border-radius: 8px; background: #f8fafc;
+        }
+        .btn {
+            width: 100%; padding: 15px; background: #6366f1; color: white;
+            border: none; border-radius: 8px; font-weight: bold; cursor: pointer;
+        }
+        .btn:hover { background: #4f46e5; }
+
+        footer { text-align: center; padding: 30px; color: #475569; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div style="font-weight: 800; color: #145ccf;">TECHNOPHONE</div>
+        <div>
+            <a href="soal1.html">Beranda</a>
+            <a href="#">Kontak</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <h2>Hubungi <span>Kami</span></h2>
+            <form action="https://formspree.io/f/xlgowwrz" method="POST">
+                <input type="text" placeholder="Nama Lengkap" required name="nama">
+                <input type="email" placeholder="Alamat Email" required name="nama">
+                <textarea placeholder="Tulis pesan..." rows="5" required name="nama"></textarea>
+                <button type="submit" class="btn">KIRIM PESAN</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Arya TechnoPhone - UTM</p>
+    </footer>
+
+</body>
+</html>                                                                                                                                         
