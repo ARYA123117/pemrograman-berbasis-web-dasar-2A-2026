@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Resmi Desa Sukomaju | White Emerald</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'hijau-utama': '#059669',
+                        'hijau-muda': '#ecfdf5', 
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <nav class="fixed w-full top-0 bg-white/80 backdrop-blur-md z-50 border-b border-emerald-50">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div
+                    class="w-8 h-8 bg-hijau-utama rounded-lg flex items-center justify-center text-white font-bold text-lg shadow-sm">
+                    D</div>
+                <span class="text-xl font-bold tracking-tighter text-gray-900">Desa <span
+                        class="text-hijau-utama">Sewor</span></span>
+            </div>
+
+            <div class="hidden md:flex gap-8 text-sm font-semibold text-gray-500">
+                <a href="#beranda" class="hover:text-hijau-utama transition">Beranda</a>
+                <a href="#profil" class="hover:text-hijau-utama transition">Profil</a>
+                <a href="#layanan" class="hover:text-hijau-utama transition">Layanan</a>
+                <a href="#contact" class="hover:text-hijau-utama transition">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="beranda" class="relative h-screen flex items-center justify-center overflow-hidden pt-16">
+<div class="absolute inset-0 bg-gradient-to-br from-hijau-muda to-white"></div>
+<div class="bg-black opacity-40">
+        <img src="desa.png" class="absolute inset-0 w-full h-full alt="Desa">
+</div>
+        <div class="absolute inset-0 bg-gradient-to-b from-white via-transparent to-white "></div>
+
+        <div class="relative z-20 text-center px-6 max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-gray-900 mb-6 drop-shadow-lg ">
+                Membangun Desa, <br>
+                <span class="text-hijau-utama italic drop-shadow-lg">
+                    Menyejahterakan Rakyat.
+                </span>
+            </h1>
+            <p class="text-black-500 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-bold drop-shadow-lg">
+                Selamat datang di pusat informasi digital Desa Sewor. Melayani dengan sepenuh hati, transparan, dan
+                inovatif.
+            </p>
+            <div class="flex flex-col md:flex-row gap-5 justify-center font-bold">
+                <a href="#layanan"
+                    class="bg-hijau-utama text-white px-10 py-4 rounded-2xl hover:bg-emerald-700 transition shadow-lg shadow-emerald-200">
+                    Layanan Online
+                </a>
+                <a href="#profil"
+                    class="bg-white text-hijau-utama border-2 border-emerald-100 px-10 py-4 rounded-2xl hover:bg-emerald-50 transition shadow-lg ">
+                    Profil Desa
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="profil" class="relative py-32 px-6 bg-emerald-50/30">
+        <div class="max-w-7xl mx-auto relative z-10 grid md:grid-cols-2 gap-20 items-center">
+            <div>
+                <h2 class="text-4xl font-bold mb-8 text-gray-900 tracking-tight">
+                    Visi <span class="text-hijau-utama">&</span> Misi <span class="text-hijau-utama">Desa</span>
+                </h2>
+                <p class="text-gray-600 leading-relaxed mb-6">"Menjadi desa mandiri, transparan, dan berdaya saing
+                    global melalui kolaborasi teknologi dan kearifan lokal."</p>
+                <div class="space-y-4">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-hijau-utama text-white p-1 rounded-full text-xs">✓</div>
+                        <p class="text-gray-600 text-sm italic font-medium">Digitalisasi seluruh pelayanan administrasi
+                            desa.</p>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="bg-hijau-utama text-white p-1 rounded-full text-xs">✓</div>
+                        <p class="text-gray-600 text-sm italic font-medium">Pemberdayaan sektor pertanian supaya lebih maju.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="grid grid-cols-2 gap-6 bg-white p-10 rounded-[2.5rem] shadow-xl shadow-emerald-100/50 border border-emerald-50">
+                <div class="text-center">
+                    <p class="text-hijau-utama font-bold text-4xl mb-1">3.450</p>
+                    <p class="text-gray-400 text-xs font-bold uppercase tracking-wider">Penduduk</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-hijau-utama font-bold text-4xl mb-1">12</p>
+                    <p class="text-gray-400 text-xs font-bold uppercase tracking-wider">Ketua RW</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-hijau-utama font-bold text-4xl mb-1">450</p>
+                    <p class="text-gray-400 text-xs font-bold uppercase tracking-wider">Hektar Sawah</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-hijau-utama font-bold text-4xl mb-1">98%</p>
+                    <p class="text-gray-400 text-xs font-bold uppercase tracking-wider">Melek Digital</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="layanan" class="max-w-7xl mx-auto px-6 py-32 bg-white">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-gray-900 tracking-tight">Layanan <span
+                    class="text-hijau-utama">Unggulan</span></h2>
+            <p class="text-gray-400 mt-3 max-w-lg mx-auto">Kemudahan akses administrasi dalam satu genggaman warga.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div
+                class="bg-white p-10 rounded-[2rem] border border-gray-100 hover:border-hijau-utama transition-all group shadow-sm hover:shadow-2xl hover:shadow-emerald-100">
+                <div
+                    class="w-14 h-14 bg-emerald-50 rounded-2xl flex items-center justify-center text-hijau-utama text-2xl mb-6 group-hover:bg-hijau-utama group-hover:text-white transition-all">
+                    📄
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-gray-900">Administrasi</h3>
+                <p class="text-gray-500 text-sm leading-relaxed mb-6 font-medium">Urus surat kependudukan online tanpa
+                    harus antre lama di balai desa.</p>
+                <a href="https://digitaldesa.id/fitur/pelayanan" class="text-hijau-utama font-bold text-sm hover:underline">Pelajari &rarr;</a>
+            </div>
+
+            <div
+                class="bg-white p-10 rounded-[2rem] border border-gray-100 hover:border-hijau-utama transition-all group shadow-sm hover:shadow-2xl hover:shadow-emerald-100">
+                <div
+                    class="w-14 h-14 bg-emerald-50 rounded-2xl flex items-center justify-center text-hijau-utama text-2xl mb-6 group-hover:bg-hijau-utama group-hover:text-white transition-all">
+                    🤝
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-gray-900">Bansos</h3>
+                <p class="text-gray-500 text-sm leading-relaxed mb-6 font-medium">Pantau data penerima bantuan sosial
+                    secara transparan dan akurat.</p>
+                <a href="https://bansoskemensosgo.id/" class="text-hijau-utama font-bold text-sm hover:underline">Pelajari &rarr;</a>
+            </div>
+
+            <div
+                class="bg-white p-10 rounded-[2rem] border border-gray-100 hover:border-hijau-utama transition-all group shadow-sm hover:shadow-2xl hover:shadow-emerald-100">
+                <div
+                    class="w-14 h-14 bg-emerald-50 rounded-2xl flex items-center justify-center text-hijau-utama text-2xl mb-6 group-hover:bg-hijau-utama group-hover:text-white transition-all">
+                    🏥
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-gray-900">Kesehatan</h3>
+                <p class="text-gray-500 text-sm leading-relaxed mb-6 font-medium">Informasi pelayanan Posyandu dan
+                    Puskesmas terintegrasi digital.</p>
+                <a href="https://siposyandu-app.online/" class="text-hijau-utama font-bold text-sm hover:underline">Pelajari &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-gray-50 text-gray-600 py-20 px-6 border-t border-emerald-50 mt-10">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-12">
+            <div>
+                <h3 class="text-xl font-bold mb-3 text-gray-900 uppercase">Desa Sewor.</h3>
+                <p class="text-gray-500 text-sm leading-relaxed max-w-xs font-medium">
+                    Kecamatan Sukorame , Lamongan.<br>Jawa Timur. Kode Pos 62246.
+                </p>
+            </div>
+            <div class="flex flex-col gap-3 text-sm">
+                <p class="font-bold text-gray-900">Kontak</p>
+                <p>info@sewor.desa.id</p>
+                <p>(031) 123456</p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-gray-100 text-center text-gray-400 text-xs font-bold">
+            © 2026 PEMERINTAH DESA SEWOR | BY ARYA - SI UTM
+        </div>
+    </footer>
+
+</body>
+
+</html>

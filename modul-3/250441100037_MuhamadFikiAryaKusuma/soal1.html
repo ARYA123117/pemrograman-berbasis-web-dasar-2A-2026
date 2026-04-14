@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Arya | Green Dark Mode</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'gelap': '#0a0a0a',
+                        'hijau-mewah': '#10b981', 
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gelap text-white font-light ">
+
+    <nav class="fixed w-full top-0 bg-gelap/90 backdrop-blur-md z-50 border-b border-gray-800">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex justify-between items-center">
+            <span class="text-xl font-bold tracking-tighter">
+                <span class="text-hijau-mewah">ARYA </span>PORTOFOLIO
+            </span>
+            <div class="flex gap-8 text-sm font-medium text-gray-400">
+                <a href="#about" class="hover:text-white transition">Tentang</a>
+                <a href="#projects" class="hover:text-white transition">Project</a>
+                <a href="#contact" class="hover:text-white transition">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="h-[100vh] pt-32 pb-20 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col items-center justify-center text-center h-full">
+            <div class="w-32 h-32 rounded-full overflow-hidden mb-8 border-4 border-hijau-mewah ">
+            <img src="arya.jpeg" alt="Arya">
+            </div>
+
+            <h1 class="text-5xl md:text-7xl font-bold tracking-tight mb-6 leading-tight max-w-4xl">
+                Tampilkan Solusi dengan
+                <span class="bg-gradient-to-r from-emerald-400 to-green-600 bg-clip-text text-transparent">Desain
+                    Efisien.</span>
+            </h1>
+
+            <p class="text-gray-400 text-lg md:text-xl max-w-xl leading-relaxed mb-10 font-light">
+                Mahasiswa Sistem Informasi Universitas Trunojoyo Madura yang fokus pada IoT dan pengembangan aplikasi
+                web modern.
+            </p>
+
+            <a href="#projects"
+                class="bg-gradient-to-r from-emerald-500 to-green-600 text-white px-10 py-4 rounded-full font-semibold hover:from-emerald-600 hover:to-green-700 transition shadow-lg text-lg">
+                Jelajahi Project
+            </a>
+        </div>
+    </header>
+
+    <section id="about"
+        class="max-w-6xl mx-auto px-6 py-24 bg-gray-950/50 rounded-3xl border border-gray-900 shadow-2xl">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="text-4xl font-bold mb-6">Tentang <span class="text-hijau-mewah">Saya</span></h2>
+                <p class="text-gray-400 leading-relaxed mb-5">Sebagai mahasiswa tahun kedua Sistem Informasi, saya
+                    menggabungkan analisis data dengan kemampuan pemrograman. Saya percaya bahwa setiap data memiliki
+                    cerita yang bisa diubah menjadi aplikasi yang bermanfaat.</p>
+            </div>
+            <div class="p-8 bg-gray-900 rounded-3xl border border-gray-800">
+                <h3 class="text-xl font-semibold mb-6 text-gray-100">Alat & Teknologi</h3>
+                <div class="flex flex-wrap gap-3"> <span
+                        class="bg-gray-800 text-gray-300 px-4 py-2 rounded-xl text-sm">HTML</span>
+                    <span class="bg-gray-800 text-gray-300 px-4 py-2 rounded-xl text-sm">CSS</span>
+                    <span class="bg-hijau-mewah/10 text-hijau-mewah px-4 py-2 rounded-xl text-sm font-semibold">Tailwind
+                        CSS</span>
+                    <span class="bg-gray-800 text-gray-300 px-4 py-2 rounded-xl text-sm">JavaScript</span>
+                    <span class="bg-gray-800 text-gray-300 px-4 py-2 rounded-xl text-sm">UI/UX</span>
+                    <span class="bg-gray-800 text-gray-300 px-4 py-2 rounded-xl text-sm">ESP3</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="projects" class="max-w-6xl mx-auto px-6 py-32">
+        <div class="mb-16">
+            <h2 class="text-4xl font-bold mb-3">Project Pilihan</h2>
+            <p class="text-gray-500 max-w-md">Karya yang menggabungkan analisis dan fungsionalitas.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+
+            <div class="group cursor-pointer bg-gray-950/30 p-6 rounded-3xl border border-gray-900 shadow-xl transition-all hover:border-gray-800">
+                <div class="aspect-video bg-gray-900 rounded-2xl mb-6 overflow-hidden border border-gray-800 transition-all group-hover:shadow-md flex items-center justify-center text-6xl text-gray-800">
+                    <div >
+                        <img src="stiker.jpeg" alt="stiker">
+                    </div>
+                </div>
+                <h3 class="text-2xl font-semibold mb-2 group-hover:text-hijau-mewah transition">Desain Stiker Makrab
+                </h3>
+                <p class="text-gray-500 text-sm leading-relaxed mb-4">Stiker Makrab - Membantu melancarkan acara makrab UKMFT-ITC 2026</p>
+            </div>
+
+            <div class="group cursor-pointer bg-gray-950/30 p-6 rounded-3xl border border-gray-900 shadow-xl transition-all hover:border-gray-800">
+                <div class="aspect-video bg-gray-900 rounded-2xl mb-6 overflow-hidden border border-gray-800 transition-all group-hover:shadow-md flex items-center justify-center text-6xl text-gray-800">
+                    <div >
+                        <img src="image.png" alt="Sistem Manajemen RS">
+                    </div>
+                </div>
+                <h3 class="text-2xl font-semibold mb-2 group-hover:text-hijau-mewah transition">Sistem Manajemen RS</h3>
+                <p class="text-gray-500 text-sm leading-relaxed mb-4">Web Application - Mengelola data pasien
+                    dan jadwal dokter secara real-time.</p>
+                <div class="flex gap-2">
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer id="contact" class="max-w-6xl mx-auto px-6 py-20 border-t border-gray-900 mt-20">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+            <p class="text-gray-600 text-sm">© 2026 AryaaTzy | Sistem Informasi UTM.</p>
+            <div class="flex gap-6 text-gray-400">
+                <a href="https://wa.me/6285755741684" class="text-sm font-medium hover:text-white transition">Whatsapp</a>
+                <a href="https://instagram.com/itzyaa.2nd" class="text-sm font-medium hover:text-white transition">Instagram</a>
+                <a href="https://github.com/ARYA123117" class="text-sm font-medium hover:text-white transition">Github</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
